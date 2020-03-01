@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".AddContactActivity">
+
+    <EditText
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/nameadd"
+        android:hint="Name"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:id="@+id/phoneadd"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Phone"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="Ajouter"
+        android:textColor="#fff"
+        android:layout_marginTop="30dp"
+        android:id="@+id/btnadd"
+        android:textSize="22sp"
+        android:background="@color/colorPrimary"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

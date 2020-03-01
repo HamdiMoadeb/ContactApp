@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:padding="3dp"
+    android:layout_height="90dp">
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="match_parent"></Space>
+
+    <TextView
+        android:id="@+id/TextViewF"
+        android:layout_width="0dp"
+        android:layout_weight="23"
+        android:layout_height="match_parent"
+        android:text="A"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:background="@drawable/round_background"
+        android:textSize="28sp" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_weight="9"
+        android:layout_height="match_parent"></Space>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="70"
+        android:text="Ayoub Ghozzi"
+        android:id="@+id/nameConatact"
+        android:textColor="#797777"
+        android:textStyle="italic"
+        android:textSize="32sp"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+
+</LinearLayout>
